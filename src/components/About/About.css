@@ -1,0 +1,40 @@
+.about-container{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  text-align: center;
+}
+
+.about-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 70px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-header {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: black;
+  max-width: 600px;
+  line-height: 0.1;
+  text-align: center;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  color: black;
+  max-width: 600px;
+  line-height: 1.5;
+  text-align: justify;
+}

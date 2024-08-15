@@ -1,0 +1,34 @@
+.apod-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  text-align: center;
+  padding: 20px;
+}
+
+.apod-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.apod-title {
+  font-size: 4rem;
+  color: black;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.apod-text {
+  font-size: 1.2rem;
+  color: black;
+  max-width: 1050px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 100px;
+}

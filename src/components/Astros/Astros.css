@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+  background-image: url("/space-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.astro-name {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.astro-craft {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 0px;
+}
+
+
